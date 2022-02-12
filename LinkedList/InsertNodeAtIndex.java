@@ -6,20 +6,6 @@ You have been given a singly linked list of integers, an integer value called 'd
 Note :
 Assume that the Indexing for the singly linked list always starts from 0.
 
-If the position is greater than the length of the singly linked list, you should return the same linked list without any change.
- Illustration :
-The following images depict how the insertion has been taken place.
-Image-I :
-Alt txt
-
-Image-II :
-Alt txt
-
-Image-III :
-Alt txt
-
-Image-IV :
-Alt txt
 
 Input format :
 The first line contains an Integer 't' which denotes the number of test cases or queries to be run. Then the test cases follow.
