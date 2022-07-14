@@ -10,16 +10,16 @@ public class solution {
         int len=input.length;
         if(start>len-1)
         {
-            int output[][]=new int[1][0];
+            int output[][]=new int[1][0];//0th row point to null
             return output;
         }
         int small[][] = subsets(input, start+1);
         int output[][]=new int[2*small.length][];
         for(int i=0;i<small.length;i++)
         {
-            output[i]=new int[small[i].length];
-            for(int j=0;j<small[i].length;j++)
-            {
+            output[i]=new int[small[i].length];//ith row will be small[i].length size 
+            for(int j=0;j<output[i].length;j++)
+            {  // copy previous content 
                 output[i][j]=small[i][j];
             }
         }
